@@ -8,4 +8,8 @@ class RouteNames {
   static const signInNameRoute = 'login';
   static const homeNameRoute = 'home';
   static const counterNameRoute = 'counter';
+
+  static const appDisplay = 'appDisplay';
+
+  static const appDisplayRoute = '/app_display';
 }

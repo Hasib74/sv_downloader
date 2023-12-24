@@ -5,6 +5,7 @@ import '../../domain/auth_failure.dart';
 import '../../infrastructure/auth_repository.dart';
 
 part 'auth_notifier.freezed.dart';
+
 part 'auth_state.dart';
 
 class AuthNotifier extends StateNotifier<AuthState> {

@@ -2,7 +2,7 @@ import 'package:fpdart/fpdart.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import '../../../../utils/validator.dart';
+import '../../../../core/utils/validator.dart';
 import '../../domain/auth_failure.dart';
 import '../../domain/value_objects.dart';
 import '../../infrastructure/auth_repository.dart';

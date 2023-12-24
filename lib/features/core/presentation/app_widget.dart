@@ -4,10 +4,10 @@ import 'package:fpdart/fpdart.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
-import '../../../config/configuration.dart';
-import '../../../constants/strings.dart';
+import '../../../core/config/configuration.dart';
+import '../../../core/constants/strings.dart';
+import '../../../core/style/style.dart';
 import '../../../l10n/l10n.dart';
-import '../../../style/style.dart';
 import '../../auth/shared/providers.dart';
 import '../shared/providers.dart';
 
@@ -47,15 +47,18 @@ class AppWidget extends HookConsumerWidget {
     final router = ref.watch(routerProvider);
 
     return MaterialApp.router(
+
+
       routeInformationProvider: router.routeInformationProvider,
       routeInformationParser: router.routeInformationParser,
       routerDelegate: router.routerDelegate,
       title: Strings.appName,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      theme: Themes.lightTheme(context),
-      darkTheme: Themes.darkTheme(context),
+      theme: AppThemes.lightTheme(context),
+      darkTheme: AppThemes.darkTheme(context),
       themeMode: ThemeMode.light,
+
     );
   }
 }

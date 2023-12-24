@@ -1,6 +1,7 @@
 import 'package:hive_flutter/hive_flutter.dart';
 
-import '../../../constants/strings.dart';
+import '../../../core/constants/strings.dart';
+
 
 class HiveDatabase {
   late Box<dynamic> _box;

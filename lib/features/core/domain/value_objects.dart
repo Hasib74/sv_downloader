@@ -1,7 +1,7 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import '../../../utils/value_validators.dart';
+import '../../../core/utils/value_validators.dart';
 import 'errors.dart';
 import 'failures.dart';
 

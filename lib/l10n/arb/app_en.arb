@@ -12,6 +12,12 @@
   "validEmailVerificationText": "Please input a valid email address",
   "emptyStringVerificationText": "This field cannot be empty",
   "welcomeUser": "Welcome {userName}",
+  "searchOrTypeUrl": "Search or Type URL",
+  "@searchOrTypeUrl": {
+
+      "description": "Search or Type URL"
+
+  },
   "@welcomeUser": {
     "placeholders": {
       "userName": {}

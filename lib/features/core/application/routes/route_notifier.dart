@@ -1,4 +1,6 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_project_template_riverpod/features/display/screen/app_display.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
@@ -55,6 +57,10 @@ class RouterNotifier extends ChangeNotifier {
           ),
         ],
       ),
+      GoRoute(
+          name: RouteNames.appDisplay,
+          path: RouteNames.appDisplayRoute,
+          builder: (context, state) => AppDisplay()),
     ];
   }
 }

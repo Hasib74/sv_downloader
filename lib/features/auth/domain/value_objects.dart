@@ -1,6 +1,6 @@
 import 'package:fpdart/fpdart.dart';
 
-import '../../../utils/value_validators.dart';
+import '../../../core/utils/value_validators.dart';
 import '../../core/domain/failures.dart';
 import '../../core/domain/value_objects.dart';
 

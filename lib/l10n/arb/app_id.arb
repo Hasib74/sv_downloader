@@ -11,6 +11,12 @@
   "signOut": "Keluar",
   "validEmailVerificationText": "Harap masukkan alamat email yang valid",
   "emptyStringVerificationText": "Bagian ini tidak boleh kosong",
+  "searchOrTypeUrl": "Search or Type URL",
+  "@searchOrTypeUrl": {
+
+      "description": "Search or Type URL"
+
+  },
   "welcomeUser": "Selamat datang {userName}",
   "@welcomeUser": {
     "placeholders": {
